@@ -1,0 +1,52 @@
+# -------------------------
+# PYTHON AND BUILD FILES
+# -------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+build/
+dist/
+
+# -------------------------
+# VIRTUAL ENVIRONMENTS
+# -------------------------
+venv/
+.venv/
+
+# -------------------------
+# CERTIFICATES AND KEYS
+# -------------------------
+certs/*.key.pem
+certs/*.csr.pem
+certs/*.srl
+
+# -------------------------
+# ENVIRONMENT VARIABLES
+# -------------------------
+.env
+.env.*
+
+# -------------------------
+# DATABASE FILES
+# -------------------------
+*.sqlite3
+*.db
+*.sql
+*.dump
+
+# -------------------------
+# LOGS AND EVIDENCE
+# -------------------------
+*.log
+*.pcap
+evidence/
+
+# -------------------------
+# OS & IDE FILES
+# -------------------------
+.DS_Store
+.idea/
+.vscode/
+Thumbs.db
