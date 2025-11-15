@@ -19,14 +19,13 @@ venv/
 # CERTIFICATES AND KEYS
 # -------------------------
 certs/*.key.pem
-certs/*.csr.pem
-certs/*.srl
+certs/ca_key.pem
 
 # -------------------------
 # ENVIRONMENT VARIABLES
 # -------------------------
 .env
-.env.*
+!.env.example
 
 # -------------------------
 # DATABASE FILES
